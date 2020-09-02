@@ -1,0 +1,118 @@
+
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 10px solid gray;
+    padding: 50px;
+}
+.headerimg {
+    width: 33%;
+    height: 33%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+p, a {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+  margin:  auto;
+   
+}
+
+.title {
+    width: 33%;
+    height: 33%;
+    margin: auto;
+    display: inline-block;
+    border: 2px solid grey;
+}
+.button1, .button2, .button3 {
+    display: inline-block;
+    width: 100px;
+    padding: 2% 0;
+    border-radius: 10px;
+    transition: 2s;
+    text-align: center;
+    margin: 10%;
+  }
+
+.button1 {
+    background-color: #FF764E;
+}
+
+.button2 {
+    background-color: #5ED3EB;
+}
+
+.button3 {
+    background-color: #FFCD69;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+header {
+    border: 2px solid grey;
+}
+.box1 {
+    background-color: #DDB9A3;
+}
+
+.campfire {
+    width: 15%;
+    height:15%;
+    margin: 5% 10% 5% 40%;
+    border: 2px solid grey;
+}
+
+.camper {
+    width: 15%;
+    height:15%;
+    margin: 5% 10% 5% 40%;
+    border: 2px solid grey;
+}
+
+.caption {
+    max-width: 33%;
+    text-align: center;
+}
+
+.footerimg {
+    max-width: 100%;
+  
+}
+
+footer {
+    background-color: #F9E7DC;
+}
